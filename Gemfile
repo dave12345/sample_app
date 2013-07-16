@@ -24,3 +24,7 @@ end
 group :production do
   gem 'pg', '0.12.2'
 end
+
+group :development do
+  gem 'webrick', '~> 1.3.1'
+end
